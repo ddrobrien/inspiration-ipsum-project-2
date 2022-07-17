@@ -17,5 +17,7 @@ const amount = document.getElementById('amount');
 const result = document.querySelector(".lorem-text");
 
 form.addEventListener('submit', function(e){
-    console.log("hello");
+    e.preventDefault();
+    const value = parseInt (amount.value);
+    console.log(value);
 })
