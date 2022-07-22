@@ -41,7 +41,6 @@ article {
     color: #cca43b;
     font-size: 30px;
     margin-top: 10px;
-    margin-bottom: 10px;
     text-indent: 20px;
 }
 /* footer*/
@@ -55,4 +54,27 @@ footer {
     text-align: center;
     font-size: large;
     font-weight: bold;
+  }
+
+  /* media queries */
+  /* for larger screens from 1200px wide and down */
+  @media screen and (max-width:1200px) {
+    .result {
+        height: 200px;
+    }
+  }
+
+  /* for screens 800px and down */
+  @media screen and (max-width:800px) {
+  .result {
+    height: auto;
+    width: 65%;
+  }
+    
+  }
+
+  /* for screens to 300px*/
+  @media screen and (max-width:300px) {
+    
+    
   }
