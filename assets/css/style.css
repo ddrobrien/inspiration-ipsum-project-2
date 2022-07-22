@@ -8,12 +8,29 @@
 
 body {
     font-family: edu NSW ACT Foundation, sans-serif;
-    font-weight: 300;
     background-color: #363636;
-    color: #cca43b;
 }
 
 h1 {
     text-align: center;
     font-size: 80px;
+    color: #cca43b;
+}
+
+label {
+    color: #cca43b;
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+button {
+    background-color: #cca43b;
+    color: #363636;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+input {
+    font-size: 20px;
 }
