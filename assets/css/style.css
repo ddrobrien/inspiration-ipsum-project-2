@@ -75,6 +75,23 @@ footer {
 
   /* for screens to 300px*/
   @media screen and (max-width:300px) {
-    
-    
+   
+    #header {
+        width: 100%;
+        font-size: 180%;
+    }
+    label {
+        font-size: 140%;
+    }
+    button {
+        font-size: 15px;
+    }
+    article {
+        font-size: 20px;
+        height: 200px;
+    }
+    footer {
+        width: 100%;
+        font-size: small;
+    }
   }
