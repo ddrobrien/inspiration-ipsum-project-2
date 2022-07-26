@@ -18,7 +18,7 @@ The project was made using JavaScript, HTML and CSS.
 * **Header**
 The header is a simple HTML header, with some CSS to style it. 
 
-* **Direction**
+* **Direction Text**
 I have added some simple text using HTML, to explain how to use the page, and the use of the buttons (generate/clear).
 
 * **Button**
@@ -33,7 +33,7 @@ The footer is created using HTML and CSS, and is fixed in it's position, it foll
 
 * **Color Scheme**
 
-![Hex value color scheme](assets/images/color%20pallet.jpg)
+![Hex value color scheme](/assets/images/color%20pallet%201.jpg)
 
 ---
 
@@ -41,6 +41,11 @@ The footer is created using HTML and CSS, and is fixed in it's position, it foll
 The has some HTML and CSS to describe what this page is. 
 
 ![Header, Inspiration Ipsum](assets/images/header.jpg)
+
+* **Direction Text**
+The direction text allows users to understand how to use the page. It remains fixed on the page so users can always refer to it. 
+
+![Direction text](assets/images/direction%20text%201.jpg)  THIS IS WHERE i FINISHED OFF UPDATING
 
 * **Button**
 The button has a selector next to it which allows users to choose how many quotes they wish to see. This can be entered using the mouse or keyboard, and the 'generate button can either be clicked using a ouse, or by the using hitting enter on a keyboard. 
