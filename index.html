@@ -11,19 +11,24 @@
 <body>
     <div id="header">Inspiration Ipsum</div>
 <section class="section-center">
+    <div id="intro">
+        <p>Welcome to the inspiration lorum ipsum generator. Please enter a number from 1 to 9 anf hit generate and we'll do the rest!</p>
+        <p>To clear the generated text press the clear button below</p>
+    </div>
 <form class="lorem-form">
-    <label for="amount">paragraphs:</label>
-    <input type="number" name="amount" id="amount" placeholder="5" min="0" max="9"/>
-    <button type="submit" class="btn">generate</button>
+        <label for="amount">paragraphs:</label>
+        <input type="number" name="amount" id="amount" placeholder="5" min="1" max="9"/>
+        <button type="submit" class="btn">generate</button>
 </form>
-<article class="lorem-text"></article>
+    <article class="lorem-text"></article>
+    <button id="clearBtn" type="submit" class="btn" onclick="location.reload();">clear</button>
 </section>
 <footer id="footer">
-<p>
-    Ispirational Ipsum created by David O'Brien
-</p>
+    <p>
+    &copy;2022 Ispirational Ipsum created by David O'Brien
+    </p>
 </footer>
 <!-- javascript-->
-    <script src="assets/js/script.js"></script>
+<script src="assets/js/script.js"></script>
 </body>
 </html>
