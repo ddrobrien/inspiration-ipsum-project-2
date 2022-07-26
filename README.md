@@ -1,6 +1,6 @@
 # Inspirtional Ipsum
 
-This version of the Lorem Ipsum, ahs been created to provide random inspirational quotes. It is aimed at people who need a little 'pick me up' when they are feeling down. What better way than with an inspirational quote. 
+This version of the Lorem Ipsum, has been created to provide random inspirational quotes. It is aimed at people who need a little 'pick me up' when they are feeling down. What better way than with an inspirational quote. 
 
 Anybody can use Inspirational Ipsum and get their quote of the day. 
 
@@ -8,7 +8,7 @@ Ispiration for this project came from Hipster Ipsum!
 
 The project was made using JavaScript, HTML and CSS. 
 
-![Inspiration Ipsum on multiple screens](assets/images/multiscreen.jpg)
+![Inspiration Ipsum on multiple screens](/assets/images/multiscreen%20image%201.jpg)
 
 
 ---
@@ -18,14 +18,18 @@ The project was made using JavaScript, HTML and CSS.
 * **Header**
 The header is a simple HTML header, with some CSS to style it. 
 
+* **Direction**
+I have added some simple text using HTML, to explain how to use the page, and the use of the buttons (generate/clear).
+
 * **Button**
-The button is created using HTML, and is displayed in the left of the screen underneath the header. It is used to generate the Inspiration Ipsum quotes, between 0-9 quotes. 
+The button is created using HTML, and is displayed in the centre of the screen underneath the header. It is used to generate the Inspiration Ipsum quotes, between 1-9 quotes.
+The clear button is created in HTML, also displayed in the centre of the screen, this allows users to clear the screen before reselcting an number to read different quotes. 
 
 * **Quotes**
-The quotes are generated through pressing the submit or 'generate' button, and these will be displayed depending the number of quotes called. If 0 is pressed multiple times, then a random quote will generate after each button press, srolling randomly through the 9 quotes available. It is also not possible to scroll below 1 or above 9 exceeding the quotes available. 
+The quotes are generated through pressing the submit or 'generate' button, and these will be displayed depending the number of quotes called. If no number is selected, then it will not be possible to view the quotes. A user must select a number. It is also not possible to scroll below 1 or above 9 exceeding the quotes available. 
 
 * **Footer**
-The footer is created using HTML and CSS, and is fixed in it's position, it follows the style of the rest of the page, except the colors are reversed to make the footer stand out. The content of the footer, shows my name as the creator of Inspiration Ipsum.
+The footer is created using HTML and CSS, and is fixed in it's position, it follows the style of the rest of the page, except the colors are reversed to make the footer stand out. The content of the footer, shows my name as the creator of Inspiration Ipsum with a trademark sign. 
 
 * **Color Scheme**
 
