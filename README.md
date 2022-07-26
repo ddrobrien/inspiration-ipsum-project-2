@@ -45,27 +45,30 @@ The has some HTML and CSS to describe what this page is.
 * **Direction Text**
 The direction text allows users to understand how to use the page. It remains fixed on the page so users can always refer to it. 
 
-![Direction text](assets/images/direction%20text%201.jpg)  THIS IS WHERE i FINISHED OFF UPDATING
+![Direction text](assets/images/direction%20text%201.jpg)
 
 * **Button**
-The button has a selector next to it which allows users to choose how many quotes they wish to see. This can be entered using the mouse or keyboard, and the 'generate button can either be clicked using a ouse, or by the using hitting enter on a keyboard. 
+The 'generate' button has a selector next to it which allows users to choose how many quotes they wish to see. This can be entered using the mouse or keyboard, and the 'generate button can either be clicked using a mouse, or by the using hitting enter on a keyboard. 
+The 'clear' button is located below the 'generate' button, and when present below the quotes, it can be activated with a mouse click. 
 
-![Button, and selector](assets/images/button.jpg)
+![Button, and selector](assets/images/generate%20button%201.jpg)
+
+![Clear button](assets/images/clear%20button%201.jpg)
 
 * **Quotes**
-Once the 'generate' button has been pressed, then a number of selected quotes will display. If 0 is pressed then random single quotes will generate at each mouse click. 
+Once the 'generate' button has been pressed, then a number of selected quotes will display. Only numbers between 1 and 9 can be selected, and the result will be the same number of quotes displayed as the number selected.  
 
-![Quote displays](assets/images/quotes.jpg)
+![Quote displays](assets/images/quotes1.jpg)
 
 * **Footer**
-The footer section is a simple footer showing the creator of the page.
+The footer section is a simple footer showing the creator of the page with a copyright mark.
 
-![Footer](assets/images/footer.jpg)
+![Footer](assets/images/footer1.jpg)
 
 ## Testing
 
-* the page has been tested using Chrome and Safari on multiple screens and sizes
-* The project is working and can continue to generate various quotes or multiple quotes when require
+* the page has been tested using Chrome and Safari
+* The project is working and can continue to generate multiple quotes when required
 * All text is readable and understandable
 
 ## Validation testing
@@ -77,11 +80,12 @@ No errors found when using the official W3C validator for pages.html. It did fla
 No errors return for CSS using the official W3C CSS Validator for style.css. 
 
 * JavaScript
-No errors returned for JavaScript using the offical jshint.com. The page did bring up warnings, but this was for a specific fomrat, and not to do with how the code runs, so these have been ignored.  
+No errors returned for JavaScript using the offical jshint.com. The page did bring up warnings, but this was for a specific format, and not to do with how the code runs, so these have been ignored.  
 
 * Accessibility 
 The colors and fonts chosen read easily and score very well in the dev tools running lighthouse in Chrome
-![Lighthouse results](assets/images/lighthouse.jpg)
+
+![Lighthouse results](/assets/images/light%20house%201.jpg)
 
 ## Bugs
 
@@ -91,7 +95,7 @@ Issues with the footer moving around the page depending on what CSS was implemen
 
 **Unsolved Bugs**
 
-There is an unsloved bug where I have tried to change the text of the quotes source, but I cannot work this out, therefore have omitted it from the code, as everything I tried created an error where the page would stop producing results. 
+There are no unsolved bugs within the code 
 
 ## Deployment
 
@@ -102,6 +106,11 @@ There is an unsloved bug where I have tried to change the text of the quotes sou
   * Once the Main branch had been selected, the page provided the link to the completed website. 
 
   The live link can be found here: [Inspration Ipsum](https://ddrobrien.github.io/inspiration-ipsum-project-2/)
+
+  * The site was created using GitPod and GitHub
+  * The site was created using 'git add .'
+  * The site was created using 'git commit -m ""' with appropriate messaging
+  * The site was created using 'git push' to update the version being worked on
 
   ## Credits
 
