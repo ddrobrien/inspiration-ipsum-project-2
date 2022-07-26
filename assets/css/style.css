@@ -5,44 +5,66 @@
     margin: 0;
     padding: 0;
     border: none;
+    font-size: 10px;
 }
 body {
     font-family: edu NSW ACT Foundation, sans-serif;
     background-color: #363636;
+}
+form {
+    text-align: center;
 }
 
 /* Heading */
 #header {
     color: #cca43b;
     text-align: center;
-    font-size: 80px;
+    font-size: 8rem;
 }
 
 /*Code and button section */
 label {
     color: #cca43b;
-    font-size: 40px;
+    font-size: 2rem;
     text-align: center;
     text-transform: capitalize;
 }
 button {
     background-color: #cca43b;
     color: #363636;
-    font-size: 20px;
+    font-size: 2rem;
     text-align: center;
     font-weight: bold;
 }
 input {
-    font-size: 20px;
+    font-size: 2rem;
+}
+#intro p {
+    padding: 2rem;
+    color: #cca43b;
+    text-align: center;
+    font-size: 3rem;
 }
 
 /* Results section */
 article {
     color: #cca43b;
-    font-size: 30px;
-    margin-top: 10px;
-    text-indent: 20px;
+    font-size: 3rem;
+    padding: 1rem;
+    text-indent: 2rem;
 }
+.result {
+    font-size: 2rem;
+    text-align: left;
+    padding: 1rem;
+}
+#clearBtn {
+    margin-left: 50%;
+    padding: 2rem;
+    background-color: darkred;
+    color: rgb(239, 234, 227);
+}
+
 /* footer*/
 footer {
     position: fixed;
@@ -52,46 +74,4 @@ footer {
     background-color: #cca43b;
     color: #363636;
     text-align: center;
-    font-size: large;
-    font-weight: bold;
-  }
-
-  /* media queries */
-  /* for larger screens from 1200px wide and down */
-  @media screen and (max-width:1200px) {
-    .result {
-        height: 200px;
-    }
-  }
-
-  /* for screens 800px and down */
-  @media screen and (max-width:800px) {
-  .result {
-    height: auto;
-    width: 65%;
-  }
-    
-  }
-
-  /* for screens to 300px*/
-  @media screen and (max-width:300px) {
-   
-    #header {
-        width: 100%;
-        font-size: 180%;
-    }
-    label {
-        font-size: 140%;
-    }
-    button {
-        font-size: 15px;
-    }
-    article {
-        font-size: 20px;
-        height: 200px;
-    }
-    footer {
-        width: 100%;
-        font-size: small;
-    }
   }
